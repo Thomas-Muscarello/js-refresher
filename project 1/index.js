@@ -2,4 +2,24 @@
     // One is my using the double "//"
     // The other, for multi line comments, you can use /* ---insert text here--- */
 
-    
+/* Data types:
+        undefined: Somthing that hasn't been defined
+        null: Nothing
+        boolean: True or False
+        string: Any sort of text
+        symbol: An immutable value that is unique
+        number: A number
+        object: Stores Key:Value Pair
+*/
+
+// Declaring a Variable:
+var my_name = "Thomas";
+    //Can be used within the whole program
+let tom = "tom";
+    //Is seen witin its scope, and can change
+const tommy = "tommy";
+    // Valuse can never change
+
+//Decalre vs Assign
+let a; // Just declaring
+let b = 2; //Declaring and assigning a value
