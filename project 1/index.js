@@ -23,3 +23,21 @@ const tommy = "tommy";
 //Decalre vs Assign
 let a; // Just declaring
 let b = 2; //Declaring and assigning a value
+
+//Interpolate
+//To innterpolate information into a string you use backticks rather than quotes
+let saying = "Hello"
+`Thomas said ${saying}`
+
+//Hash objects with key value pair
+//Hashs can be nested
+let somehash = {
+    Title: "Some Hash",
+    nestedNames:{
+        name_a = "Thomas",
+        name_n = "Casey"
+    }
+}
+//To get information from them:
+somehash.nestedNames.name_a
+// You can use dot notation
