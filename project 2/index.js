@@ -9,6 +9,15 @@ let b = 10;
 let c = "I am a string"
 
 //Variable decalration is case sensative
+    //  tom !== Tom
 
-let tom !== let Tom
 
+//Local Variable
+
+//Global Variable
+
+//Instance Variable
+
+//Class Variable
+
+//Constant

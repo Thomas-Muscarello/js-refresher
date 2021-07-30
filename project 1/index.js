@@ -41,3 +41,7 @@ let somehash = {
 //To get information from them:
 somehash.nestedNames.name_a
 // You can use dot notation
+
+//Everything that isn't a primative value is an object in Javascript.
+
+//That allows them to have object behavior
