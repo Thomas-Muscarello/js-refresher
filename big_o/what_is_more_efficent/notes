@@ -1,0 +1,5 @@
+So between option 1 and 2, which one is better?
+    Faster?
+    Less Memory?
+    More readable?
+We are going to focus on speed. W can find out by using a built in time method.
