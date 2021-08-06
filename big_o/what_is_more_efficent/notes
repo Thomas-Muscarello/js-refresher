@@ -11,3 +11,8 @@ You wangt to count the number of operations.
         Assignmnets of values
         comparisons
             If you are in a loop, the number of operations can change depending on variables.
+
+            There are typically 3 different types:
+                Linear -> O(f(n)=n)
+                Constant-> O(f(n)=1)
+                Quadratic-> O(f(n)=n^2)
