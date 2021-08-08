@@ -5,7 +5,7 @@ So between option 1 and 2, which one is better?
 We are going to focus on speed. W can find out by using a built in time method.
 Rememebr: both the same and different machines can run the same code in a different amount of time.
 
-You wangt to count the number of operations.
+You want to count the number of operations.
     operations can be:
         Actual operatiors, such as  *,/,+,-
         Assignmnets of values
@@ -16,3 +16,12 @@ You wangt to count the number of operations.
                 Linear -> O(f(n)=n)
                 Constant-> O(f(n)=1)
                 Quadratic-> O(f(n)=n^2)
+
+Space Complexity:
+    How much additional memory do we need to allocate in order to run the code in our algorythm?
+    -Inputs .. Auxiliary space Complexity to refer to space needed by the algorythm, not including space taken up by the inputs.
+        Focus on what happens inside the algorythm
+            -Most primitives (booleans, numbers, undefined, nul) are constant space
+            -Strings require O(n) (space where n is the string length)
+            -Reference types are generally O(n), where n is the length(for arrays) or the number of keys (for objects)
+        
