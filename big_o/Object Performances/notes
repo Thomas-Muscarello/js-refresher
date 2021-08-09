@@ -1,0 +1,8 @@
+When to use objects:
+    when you dont need order
+    When you need fast access/ insertion and removal
+        Constant time
+            Insertion - O(1)
+            Removal - O(1)
+            Searching - O(n)
+            Access - O(1)
