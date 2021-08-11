@@ -6,3 +6,14 @@ When to use objects:
             Removal - O(1)
             Searching - O(n)
             Access - O(1)
+
+When to use Arrays:
+    When you need order
+    When you need fast access/ insertion and removal (SORT OF...)
+        Access is constant time
+        Insertion/Removal:
+            .push/ .pop to add/remove from the end of an array is an O(1)
+            .shift/unshift to add/remove from the front, it then has to reindex for every item in an array
+                It is an O(n)
+        Searching
+            O(n)
