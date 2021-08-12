@@ -32,5 +32,12 @@ Solve/simplify
         -Temporarity ignore the difficulty
         -Write a simplified solution
         -Then incorparate that difficulty back in.
-        
+
 Look back and refactor
+    -Can you check the result
+    -Can you get the result differntly
+    -Can you understand at a glance
+    -Can it be used to solve another problem
+    -Can you improve the performance of the solution
+    can you think of other ways to refactor
+    -How have other people solved this problem
