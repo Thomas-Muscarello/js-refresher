@@ -7,16 +7,41 @@
 //What would happen if we wanted to add a string with spaces, uppercase, numbers...?
 
 function charCount(str){
-    str = str.toLowerCase();
-    let f  = {};
-    for(let i =0;i<str.length;i++)
-    {
-        if(str[i] !== " ")
-        {
-            f[str[i]] = f[str[i]] + 1 || 1 
+    //We want it to do somthing
+    //We want it to return an object
+}
+
+
+function charCount(str){
+    //We need to make an object to return
+    //Loop over the string, and for each character:
+        //If the charcater is a number/letter AND is a key in object, add 1
+        //If chara
+        //if the char is a number/letter AND not in object, add it and set value to 1
+        //If character is else -> Dont do anything
+    //return object
+}
+
+function charCount(str){
+    //We need to make an object to return
+    let result = {};
+
+    //Loop over the string for each character...
+    for(let i = 0; i < str.length; i++){
+        
+        let char = str[i].toLowerCase()
+         //If the charcater is a number/letter AND is a key in object, add 1
+        if(result(char)>0){
+            result[char]++;
         }
+        
+        //if the char is a number/letter AND not in object, add it and set value to 1
+        else{
+            result[char]=1;
+        };
     }
-  return(f);   
+    //return object
+    return result
 }
 
 console.log(charCount("my name is Tom"))

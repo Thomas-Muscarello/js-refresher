@@ -4,6 +4,7 @@ How do you improve?
     -Devise a plan for solving problems.
     -Master common problem solving patterns
 
+Look at Function.js
 Understanding the problem
     -Restate the pronlem in your own word.
     -What are the inputs
@@ -11,11 +12,25 @@ Understanding the problem
     -Can the output be determined from the input?
     -How to lable important pieces of data
 
+Look at Function2.js
 Explore concrete Example
     -Start with Simple Examples
     -Progress to more complex Examples
     -Explore examples with empty inputs
     -Explore examples with invalid input
+
+Look at Function2.js
 Break it down
+    -Explicity write out the steps needed to taken
+        -forces you to think about your code.
+        -Catch any lingering conceptual issues
+    
 Solve/simplify
+    -Try to solve the problem
+    -If you can't, try to solve a simmpler problem so that you can focus on the bulk.
+        -Find the core difficulty in what youre doing
+        -Temporarity ignore the difficulty
+        -Write a simplified solution
+        -Then incorparate that difficulty back in.
+        
 Look back and refactor
