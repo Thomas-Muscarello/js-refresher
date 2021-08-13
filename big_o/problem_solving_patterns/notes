@@ -1,0 +1,15 @@
+Some names of common Patterns:
+    -Frequency COunter
+    -Multiple Pointers
+    -Sliding Window
+    -Divide and Conquer
+    -Dynamic Programming
+    -Greedy Algorithms
+    -Backtracking
+
+Frequency Counters: Pattern uses objects or sets to collect values/ frequencies of values
+    -This can often avoif the need for nested loops or o(n^2) operations with arrays/strings
+    -Use an object to construct a profile so that you can break down the contents of an array or string. The you are able to compare that breakdown to how another object looks that was constructed that way as well.
+
+Multiple Pointers: Creating pointers or values that correspond to an index or position and move towards the beginning, end or middle based on certain conditions
+    -Efficient for solving problems w/ minimal space complexity
