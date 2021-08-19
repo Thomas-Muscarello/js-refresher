@@ -1,0 +1,5 @@
+Recursion: Is a different way to think about writing a solution
+    -Taking one problem and doing it on a smaller piece until you reach an end
+    -A FUNCTION THAT CALLS ITSELF-
+    -Example json.parge/json.stringify
+    
