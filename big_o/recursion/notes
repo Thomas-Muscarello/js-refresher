@@ -7,3 +7,9 @@ Call Stack: built in data structre that managaes what happens when a function is
     -When a function is invoked it is placed at the top of the call stack.
     -When JS sees the return keywood or when the function ends, the compiler will remove from the top
     -When we write recursive functions we keep pushing new functions onto the call stack
+
+How recursive functions work
+    -invoke the same function with a different input until you reach your base case
+    -Base Case is the condition when the Recursion ends
+    -Base Case and Different input
+        -The different input to check the data you are recursing
