@@ -2,4 +2,8 @@ Recursion: Is a different way to think about writing a solution
     -Taking one problem and doing it on a smaller piece until you reach an end
     -A FUNCTION THAT CALLS ITSELF-
     -Example json.parge/json.stringify
-    
+
+Call Stack: built in data structre that managaes what happens when a function is invoked
+    -When a function is invoked it is placed at the top of the call stack.
+    -When JS sees the return keywood or when the function ends, the compiler will remove from the top
+    -When we write recursive functions we keep pushing new functions onto the call stack
