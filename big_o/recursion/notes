@@ -19,3 +19,6 @@ Things can go wrong if:
         The call stack will exceed maximum (Stack Overflow)
     -If there is no return, there is no end
     - Can return the wrong number or you forget to return by not changing the code properly
+
+Pure recursoin:
+    The function itself can be completly contained.
