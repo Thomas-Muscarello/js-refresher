@@ -13,3 +13,9 @@ How recursive functions work
     -Base Case is the condition when the Recursion ends
     -Base Case and Different input
         -The different input to check the data you are recursing
+
+Things can go wrong if:
+    -There is no base case.
+        The call stack will exceed maximum (Stack Overflow)
+    -If there is no return, there is no end
+    - Can return the wrong number or you forget to return by not changing the code properly
