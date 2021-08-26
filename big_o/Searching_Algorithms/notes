@@ -1,0 +1,13 @@
+What it is.
+A linear Search on Arrays
+Binary Search
+Native String
+KMP Searching Algorithm
+
+Linear Search:
+Given an Array, the simplest way to search for a value is to look at every element in the array and check if its the value we want
+    The best way to find an item in an unsorted list is to iterate over each one.
+        Examples:
+            indexOf()
+            includes()
+            findIndex()

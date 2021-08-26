@@ -21,4 +21,7 @@ Things can go wrong if:
     - Can return the wrong number or you forget to return by not changing the code properly
 
 Pure recursoin:
-    The function itself can be completly contained.
+    -The function itself can be completly contained.
+    -use methods like slice, the dpread operator and concat that makes copies of arrays so you dont mutate them.
+    -Strnigs are immutable so you will need to use methods like slicce, substr, or substring to make copies
+    -to make copies of objects use Object.assign or the spread operator
