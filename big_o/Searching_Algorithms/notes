@@ -11,3 +11,11 @@ Given an Array, the simplest way to search for a value is to look at every eleme
             indexOf()
             includes()
             findIndex()
+    Big O = O(n)
+
+Binary Search:
+    Only works on array is sorted. 
+    Much faster form of Searching
+    Rather than eliminate 1 element at a time, you can eleiminate half of the remaaining elements at a time.
+        Basically Divide and Conquer.
+        Picks a pivot point
