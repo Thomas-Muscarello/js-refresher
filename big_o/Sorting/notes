@@ -1,0 +1,25 @@
+Elementry Sortinf Algorithms
+What is sorting: Rearranging the items in a collection so that the items are in some kinf of order
+    Example:
+        -Shortest to Longest
+        -Sort names A-Z
+        -Sorting movies based on release year or revenue
+Purpose:
+    -Common task within software engineering
+    -Many ways to sort with their own pros and cons
+    -Classic Interview Topic
+
+Objectives: 
+    Bubble Sort
+    Selection Sort
+    Insertion Sort
+
+Built In Sorting Method...
+    Array.sort
+    -Doesnt always work the way you want it to.
+    -Accepts an optional comparator function
+    -You can use this comparator function to tell JS how you want it to sort
+    -The comparator looks at pairs of elements (a and b), determines their sort order based on the return value
+        if it returns a negative number, a should come before b
+        if it is a positive number, a should ocme after b 
+        if it returns a 0, a and b are the same as far as the sort is concered
