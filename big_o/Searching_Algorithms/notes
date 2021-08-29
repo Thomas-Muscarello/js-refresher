@@ -19,3 +19,7 @@ Binary Search:
     Rather than eliminate 1 element at a time, you can eleiminate half of the remaaining elements at a time.
         Basically Divide and Conquer.
         Picks a pivot point
+
+Naive Search:
+    -Search for string inside a string.
+    -Count the number of times a smaller string pops up in a larger string.
