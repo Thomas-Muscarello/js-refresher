@@ -23,3 +23,20 @@ Built In Sorting Method...
         if it returns a negative number, a should come before b
         if it is a positive number, a should ocme after b 
         if it returns a 0, a and b are the same as far as the sort is concered
+    
+Bubble Sort:
+    A Sorting Algorithm where the largest values bubble up to the top
+    -VisuALGO
+        -interatcive tool to help you go through Algorithms in the browser
+    As we loop, we compare the value to the one infront of it.
+        if it is larger, swap it to the front
+    SWAPPING
+        function swap(arr,indx1,indx2){
+            let temp = arr[indx1];
+            arr[indx1]=arr[indx2];
+            arr[indx2]=temp;
+        }
+        -OR-
+        const swap = (arr, indx1, indx2) =>{
+            [arr[indx1], arr[indx2]]= [arr[indx2], arr[indx1]];
+        }
