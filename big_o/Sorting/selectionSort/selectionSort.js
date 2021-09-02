@@ -4,9 +4,24 @@
 //If minimum is not the value(index) you started with, swap the two values
 //repeat until array is sorted
 
-
-
-function swapping(arr,indx1,indx2){
-    let temp = arr[indx1];
-    arr[indx1]=arr[indx2];
-    arr[indx2]=temp;
+function selectionSOrt(arr){
+    for(let i = 0; i<arr.length;i++){
+        //Start at i and set to lowest
+        let lowest = i;
+        //make a second variable to compare
+        for(let j = i+1; j<arr.length; j++){
+            //If the second variable is less than i, set the lowest to new low
+            if(arr[j]< arr[lowest]){
+                lowest=j
+            }
+        }
+        //if i isnt the lowest
+        if(i!== lowest){
+            //swap
+            let temp = arr[i]
+            arr[i]=arr[lowest];
+            arr[lowest]=temp
+        }
+    }
+    return arr
+}
