@@ -1,0 +1,21 @@
+Regualr expressions allow us to search for specifc patterns within text.
+
+To search for litteral chacters you can search:
+/abc/ => abc
+Expressions are case sensative. So:
+    abc !== abc
+
+Meta Characters:
+.[{(\^$|?*+)}]
+To escape a meta character you would use: \
+
+. = Any chacter except new lines
+\d = any diget 0-9
+\D = not a digit
+\w
+
+
+Anchors match invisible characters
+(http://www.website.com)+[/]((example)|(our-resources))[/]+((news/)|(.p=\d\d\d\d))+(()|(\?p=\d\d\d))
+
+
