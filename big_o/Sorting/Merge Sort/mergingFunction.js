@@ -5,7 +5,7 @@
 //use while loops
 //Start with comparing the frist two elements, add the smaller number to a new array... one at a time
 
-function merge(arr1,arr2){
+export function merge(arr1,arr2){
     let results = []
     let i = 0
     let j = 0

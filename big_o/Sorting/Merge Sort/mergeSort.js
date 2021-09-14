@@ -4,7 +4,7 @@
 //Keep going recurrsivly until our base case is arr.length<+1
 //Once all are sigle, merge those arrays with the other sorted arrays until you are back to the full length
 //Then return sorted merged array
-
+import merge from "./mergingFunction.js"
 function mergeSort(arr){
     if(arr.length <= 1) return arr;
     let midpoint = Math.floor(arr.length/2)
