@@ -1,1 +1,12 @@
 Merge Sorting
+Understanding our limits
+The previouse sorting examples dont scale well
+
+These new ones can imporve time complexity from O(n^2) to O(nlogn)
+Trade off between efficiency and simplicity
+The more efficient alogorithms are much less simple and generally take longer to understand
+
+Merge Sort
+Combonation of: Spliting Up, Merging and Sorting
+Exploits the fact thtat arrays of 0 or 1 element are always sorted
+Works by decomposing array into smaller arrays of 0 or 1 elements, then building up a newly sorted array
